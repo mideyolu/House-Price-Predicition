@@ -1,7 +1,7 @@
 ### Advance House Price Prediction
 
 
-# Dataset Description
+#### Dataset Description
 
 Here's a brief version of what you'll find in the data description file:
 
@@ -85,3 +85,14 @@ Here's a brief version of what you'll find in the data description file:
 - **YrSold**: Year Sold
 - **SaleType**: Type of sale
 - **SaleCondition**: Condition of sale
+
+#### Model Performance
+
+| Model                   | R2 Score | MAE     | MSE     | RMSE    |
+|-------------------------|----------|---------|---------|---------|
+| Linear Regression       | 0.912423 | 0.090760| 0.016343| 0.127839|
+| Lasso Regression        | 0.046717 | 0.326547| 0.177893| 0.421774|
+| Ridge Regression        | 0.912795 | 0.090754| 0.016273| 0.127567|
+| ElasticNet Regression  | 0.072946 | 0.321549| 0.172999| 0.415931|
+| SVR                     | 0.896117 | 0.090927| 0.019386| 0.139232|
+| DecisionTreeRegressor   | 0.801174 | 0.135600| 0.037103| 0.192622|
