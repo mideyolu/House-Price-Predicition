@@ -86,7 +86,7 @@ Here's a brief version of what you'll find in the data description file:
 - **SaleType**: Type of sale
 - **SaleCondition**: Condition of sale
 
-#### Model Performance with Hyperparameter Tuning
+#### Model Performance without Hyperparameter Tuning
 
 | Model                   | R2 Score | MAE     | MSE     | RMSE    |
 |-------------------------|----------|---------|---------|---------|
